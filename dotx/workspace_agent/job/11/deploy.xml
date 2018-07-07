@@ -1,0 +1,6 @@
+<deploy>
+  <appToPartion>
+    <begin>0</begin>
+    <end>15</end>
+  </appToPartion>
+</deploy>

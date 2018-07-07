@@ -1,0 +1,228 @@
+<system name="testModel">
+  <system reference=".."/>
+  <properties/>
+  <components>
+    <component name="Sens1" category="DEVICE">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="Reliability" value="0.99"/>
+        <property key="InitialNode" value="1"/>
+        <property key="RunTime" value="10"/>
+        <property key="ProcessorPolicy" value="empty"/>
+        <property key="PartTimeChipSize" value="-1"/>
+        <property key="ProcessPeriod" value="-1"/>
+        <property key="ProcessDeadlineTime" value="-1"/>
+      </properties>
+      <cseq>0</cseq>
+      <subcomponents/>
+      <features>
+        <feature name="Sens1Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>0</componentId>
+    </component>
+    <component name="Sens2" category="DEVICE">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="Reliability" value="0.99"/>
+        <property key="InitialNode" value="1"/>
+        <property key="RunTime" value="10"/>
+        <property key="ProcessorPolicy" value="empty"/>
+        <property key="PartTimeChipSize" value="-1"/>
+        <property key="ProcessPeriod" value="-1"/>
+        <property key="ProcessDeadlineTime" value="-1"/>
+      </properties>
+      <cseq>0</cseq>
+      <subcomponents/>
+      <features>
+        <feature name="Sens2Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>1</componentId>
+    </component>
+    <component name="Inter" category="DEVICE">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="Reliability" value="0.99"/>
+        <property key="InitialNode" value="0"/>
+        <property key="RunTime" value="10"/>
+        <property key="ProcessorPolicy" value="empty"/>
+        <property key="PartTimeChipSize" value="-1"/>
+        <property key="ProcessPeriod" value="-1"/>
+        <property key="ProcessDeadlineTime" value="-1"/>
+      </properties>
+      <cseq>0</cseq>
+      <subcomponents/>
+      <features>
+        <feature name="InterPort1">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+        <feature name="InterPort2">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+        <feature name="InterPort3">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+        <feature name="InterPort4">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>2</componentId>
+    </component>
+    <component name="Mem1" category="MEMORY">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="Reliability" value="0.99"/>
+        <property key="InitialNode" value="0"/>
+        <property key="RunTime" value="10"/>
+        <property key="ProcessorPolicy" value="empty"/>
+        <property key="PartTimeChipSize" value="-1"/>
+        <property key="ProcessPeriod" value="-1"/>
+        <property key="ProcessDeadlineTime" value="-1"/>
+      </properties>
+      <cseq>0</cseq>
+      <subcomponents/>
+      <features>
+        <feature name="Mem1Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>3</componentId>
+    </component>
+    <component name="Mem2" category="MEMORY">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="Reliability" value="0.99"/>
+        <property key="InitialNode" value="0"/>
+        <property key="RunTime" value="10"/>
+        <property key="ProcessorPolicy" value="empty"/>
+        <property key="PartTimeChipSize" value="-1"/>
+        <property key="ProcessPeriod" value="-1"/>
+        <property key="ProcessDeadlineTime" value="-1"/>
+      </properties>
+      <cseq>0</cseq>
+      <subcomponents/>
+      <features>
+        <feature name="Mem2Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>4</componentId>
+    </component>
+    <component name="Pro1" category="PROCESSOR">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="Reliability" value="0.99"/>
+        <property key="InitialNode" value="0"/>
+        <property key="RunTime" value="10"/>
+        <property key="ProcessorPolicy" value="RMS"/>
+        <property key="PartTimeChipSize" value="-1"/>
+        <property key="ProcessPeriod" value="-1"/>
+        <property key="ProcessDeadlineTime" value="-1"/>
+      </properties>
+      <cseq>0</cseq>
+      <subcomponents/>
+      <features>
+        <feature name="Pro1Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>5</componentId>
+    </component>
+    <component name="Pro2" category="PROCESSOR">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="Reliability" value="0.99"/>
+        <property key="InitialNode" value="0"/>
+        <property key="RunTime" value="10"/>
+        <property key="ProcessorPolicy" value="RMS"/>
+        <property key="PartTimeChipSize" value="-1"/>
+        <property key="ProcessPeriod" value="-1"/>
+        <property key="ProcessDeadlineTime" value="-1"/>
+      </properties>
+      <cseq>0</cseq>
+      <subcomponents/>
+      <features>
+        <feature name="Pro2Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>6</componentId>
+    </component>
+  </components>
+  <connections>
+    <connection name="Sens1.Sens1Port -&gt; Inter.InterPort2">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="ConnectionTime" value="1"/>
+      </properties>
+      <source reference="../../../components/component/features/feature"/>
+      <destination reference="../../../components/component[3]/features/feature[2]"/>
+    </connection>
+    <connection name="Sens2.Sens2Port -&gt; Inter.InterPort3">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="ConnectionTime" value="1"/>
+      </properties>
+      <source reference="../../../components/component[2]/features/feature"/>
+      <destination reference="../../../components/component[3]/features/feature[3]"/>
+    </connection>
+    <connection name="Mem1.Mem1Port -&gt; Pro1.Pro1Port">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="ConnectionTime" value="1"/>
+      </properties>
+      <source reference="../../../components/component[4]/features/feature"/>
+      <destination reference="../../../components/component[6]/features/feature"/>
+    </connection>
+    <connection name="Mem2.Mem2Port -&gt; Pro2.Pro2Port">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="ConnectionTime" value="1"/>
+      </properties>
+      <source reference="../../../components/component[5]/features/feature"/>
+      <destination reference="../../../components/component[7]/features/feature"/>
+    </connection>
+    <connection name="Pro1.Pro1Port -&gt; Inter.InterPort1">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="ConnectionTime" value="1"/>
+      </properties>
+      <source reference="../../../components/component[6]/features/feature"/>
+      <destination reference="../../../components/component[3]/features/feature"/>
+    </connection>
+    <connection name="Pro2.Pro2Port -&gt; Inter.InterPort4">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="ConnectionTime" value="1"/>
+      </properties>
+      <source reference="../../../components/component[7]/features/feature"/>
+      <destination reference="../../../components/component[3]/features/feature[4]"/>
+    </connection>
+  </connections>
+</system>

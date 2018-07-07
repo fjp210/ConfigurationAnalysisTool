@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<components>
+    <component>
+        <number>
+            C1
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+
+
+    <component>
+        <number>
+            C2
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C3
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C4
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C5
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C6
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            FPS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C7
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C8
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C9
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C10
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            1
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C11
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            2
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            30
+        </ProcessDeadlineTime>
+
+    </component>
+
+    <component>
+        <number>
+            C12
+        </number>
+
+        <name>
+            CPM
+        </name>
+
+        <basicReliability>
+            0.98
+        </basicReliability>
+
+        <basicExecutingTime>
+            150
+        </basicExecutingTime>
+
+        <usingProbability>
+            0.6
+        </usingProbability>
+        <initialMark>
+            True
+        </initialMark>
+
+        <ProcessorPolicy>
+            RMS
+        </ProcessorPolicy>
+
+
+
+        <PartTimeChipSize>
+            10
+        </PartTimeChipSize>
+
+        <ProcessPeriod>
+            20
+        </ProcessPeriod>
+        <ProcessDeadlineTime>
+            3
+        </ProcessDeadlineTime>
+
+    </component>
+
+</components>

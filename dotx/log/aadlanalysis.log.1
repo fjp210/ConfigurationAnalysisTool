@@ -1,0 +1,622 @@
+DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 111,3  replyHeader:: 111,7829,0  request:: '/task,F  response:: s{7542,7542,1512539170809,1512539170809,0,7,0,0,0,7,7804} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 112,12  replyHeader:: 112,7829,0  request:: '/task/13/joblist/24,F  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 113,12  replyHeader:: 113,7829,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 114,3  replyHeader:: 114,7829,0  request:: '/task/13,F  response:: s{7804,7804,1512662208798,1512662208798,0,2,0,0,0,2,7812} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 115,12  replyHeader:: 115,7829,0  request:: '/task/13/joblist/24/id,F  response:: v{},s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/23/id serverPath:/task/13/joblist/23/id finished:false header:: 116,4  replyHeader:: 116,7829,0  request:: '/task/13/joblist/23/id,T  response:: #3233,s{7817,7818,1512662209326,1512662209329,1,0,0,0,2,0,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 117,4  replyHeader:: 117,7829,0  request:: '/task/13/joblist/23/status,T  response:: #30,s{7814,7815,1512662209272,1512662209284,1,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 118,3  replyHeader:: 118,7829,0  request:: '/task/13/joblist,F  response:: s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 119,12  replyHeader:: 119,7829,0  request:: '/task/13/joblist/24/status,F  response:: v{},s{7825,7826,1512662209400,1512662209403,1,0,0,0,1,0,7825} 
+    DEBUG Curator-QueueBuilder-0 org.hibernate.engine.transaction.internal.TransactionImpl - committing
+    DEBUG Curator-QueueBuilder-0 org.hibernate.event.internal.AbstractFlushingEventListener - Processing flush-time cascades
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 120,3  replyHeader:: 120,7829,0  request:: '/task/13/joblist/24,F  response:: s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG Curator-QueueBuilder-0 org.hibernate.event.internal.AbstractFlushingEventListener - Dirty checking collections
+    DEBUG Curator-QueueBuilder-0 org.hibernate.engine.internal.Collections - Collection found: [edu.buaa.rse.dotx.dbmodel.TaskModel.jobs#13], was: [edu.buaa.rse.dotx.dbmodel.TaskModel.jobs#13] (uninitialized)
+    DEBUG Curator-QueueBuilder-0 org.hibernate.engine.internal.Collections - Collection found: [edu.buaa.rse.dotx.dbmodel.JobModel.results#23], was: [<unreferenced>] (initialized)
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 121,3  replyHeader:: 121,7829,-101  request:: '/task/13/joblist/24/foo,F  response::  
+    DEBUG Curator-QueueBuilder-0 org.hibernate.engine.internal.Collections - Collection found: [edu.buaa.rse.dotx.dbmodel.JobModel.results#24], was: [<unreferenced>] (initialized)
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 122,12  replyHeader:: 122,7829,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG Curator-QueueBuilder-0 org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+    DEBUG Curator-QueueBuilder-0 org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 2 (re)creations, 0 updates, 0 removals to 3 collections
+    DEBUG Curator-QueueBuilder-0 org.hibernate.internal.util.EntityPrinter - Listing entities:
+    DEBUG Curator-QueueBuilder-0 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobModel{task=edu.buaa.rse.dotx.dbmodel.TaskModel#13, id=23, results=[], status=2}
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/24/id serverPath:/task/13/joblist/24/id finished:false header:: 123,4  replyHeader:: 123,7829,0  request:: '/task/13/joblist/24/id,T  response:: #3234,s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    DEBUG Curator-QueueBuilder-0 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobModel{task=edu.buaa.rse.dotx.dbmodel.TaskModel#13, id=24, results=[], status=2}
+    DEBUG Curator-QueueBuilder-0 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.TaskModel{jobs=<uninitialized>, tempDir=/stage/1512662194449/temp, id=13, status=0}
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 124,4  replyHeader:: 124,7829,0  request:: '/task/13/joblist/24/status,T  response:: #30,s{7825,7826,1512662209400,1512662209403,1,0,0,0,1,0,7825} 
+    DEBUG Curator-QueueBuilder-0 org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+    DEBUG Curator-QueueBuilder-0 org.hibernate.resource.transaction.internal.SynchronizationRegistryStandardImpl - Clearing local Synchronizations
+    DEBUG Curator-QueueBuilder-0 org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got notification sessionid:0x16026d97003002e
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeDataChanged path:/task/13/joblist/23/status for sessionid 0x16026d97003002e
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 125,4  replyHeader:: 125,7833,0  request:: '/task/13/joblist/23/status,T  response:: #31,s{7814,7833,1512662209272,1512662214019,2,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 126,12  replyHeader:: 126,7833,0  request:: '/task/13/joblist,F  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 127,4  replyHeader:: 127,7833,0  request:: '/task/13/joblist/23/status,F  response:: #31,s{7814,7833,1512662209272,1512662214019,2,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got notification sessionid:0x16026d97003002e
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeDataChanged path:/task/13/joblist/23/status for sessionid 0x16026d97003002e
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 128,4  replyHeader:: 128,7834,0  request:: '/task/13/joblist/23/status,T  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 129,12  replyHeader:: 129,7834,0  request:: '/task/13/joblist,F  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 130,4  replyHeader:: 130,7834,0  request:: '/task/13/joblist/23/status,F  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 131,4  replyHeader:: 131,7834,0  request:: '/task/13/joblist/24/status,F  response:: #30,s{7825,7826,1512662209400,1512662209403,1,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got notification sessionid:0x16026d97003002e
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeDataChanged path:/task/13/joblist/24/status for sessionid 0x16026d97003002e
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 132,4  replyHeader:: 132,7836,0  request:: '/task/13/joblist/24/status,T  response:: #31,s{7825,7836,1512662209400,1512662214873,2,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 133,12  replyHeader:: 133,7836,0  request:: '/task/13/joblist,F  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 134,4  replyHeader:: 134,7836,0  request:: '/task/13/joblist/23/status,F  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 135,4  replyHeader:: 135,7836,0  request:: '/task/13/joblist/24/status,F  response:: #31,s{7825,7836,1512662209400,1512662214873,2,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got notification sessionid:0x16026d97003002e
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeDataChanged path:/task/13/joblist/24/status for sessionid 0x16026d97003002e
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 136,4  replyHeader:: 136,7837,0  request:: '/task/13/joblist/24/status,T  response:: #32,s{7825,7837,1512662209400,1512662215150,3,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 137,12  replyHeader:: 137,7837,0  request:: '/task/13/joblist,F  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 138,4  replyHeader:: 138,7837,0  request:: '/task/13/joblist/23/status,F  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 139,4  replyHeader:: 139,7837,0  request:: '/task/13/joblist/24/status,F  response:: #32,s{7825,7837,1512662209400,1512662215150,3,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 140,4  replyHeader:: 140,7837,0  request:: '/task/13/id,F  response:: #3133,s{7805,7806,1512662208813,1512662208819,1,0,0,0,2,0,7805} 
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.transaction.internal.TransactionImpl - begin
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 141,12  replyHeader:: 141,7837,0  request:: '/task/13/joblist,F  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 142,4  replyHeader:: 142,7837,0  request:: '/task/13/joblist/23/id,F  response:: #3233,s{7817,7818,1512662209326,1512662209329,1,0,0,0,2,0,7817} 
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - deploy.xml开始下载....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - deploy.xml成功下载到workspace_agent/job/23/deploy.xml
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - result.json开始下载....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - result.json成功下载到workspace_agent/job/23/result.json
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: Select job from edu.buaa.rse.dotx.dbmodel.JobModel job  where job.id= :id 
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  |  +-[IDENT] Node: 'edu'
+    |  |     |  |  |  |  |  \-[IDENT] Node: 'buaa'
+    |  |     |  |  |  |  \-[IDENT] Node: 'rse'
+    |  |     |  |  |  \-[IDENT] Node: 'dotx'
+    |  |     |  |  \-[IDENT] Node: 'dbmodel'
+    |  |     |  \-[IDENT] Node: 'JobModel'
+    |  |     \-[ALIAS] Node: 'job'
+    |  \-[SELECT] Node: 'Select'
+    |     \-[IDENT] Node: 'job'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'job'
+          |  \-[IDENT] Node: 'id'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'id'
+
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : edu.buaa.rse.dotx.dbmodel.JobModel (job) -> jobmodel0_
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : job -> jobmodel0_.id
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : job -> jobmodel0_.id
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.tree.DotNode - getDataType() : id -> org.hibernate.type.IntegerType@2246ecbb
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : job.id -> jobmodel0_.id
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} jobmodel0_.id ) ( FromClause{level=1} job jobmodel0_ ) ( where ( = ( jobmodel0_.id jobmodel0_.id id ) ? ) ) )
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.util.JoinProcessor - Using FROM fragment [job jobmodel0_]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (job)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'jobmodel0_.id as id1_0_' {alias=job, className=edu.buaa.rse.dotx.dbmodel.JobModel, tableAlias=jobmodel0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'jobmodel0_.status as status2_0_, jobmodel0_.taskid as taskid3_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[job], fromElementByTableAlias=[jobmodel0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'job jobmodel0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=job,role=null,tableName=job,tableAlias=jobmodel0_,origin=null,columns={,className=edu.buaa.rse.dotx.dbmodel.JobModel}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'jobmodel0_.id' {propertyName=id,dereferenceType=PRIMITIVE,getPropertyPath=id,path=job.id,tableAlias=jobmodel0_,className=edu.buaa.rse.dotx.dbmodel.JobModel,classAlias=job}
+          |  +-[ALIAS_REF] IdentNode: 'jobmodel0_.id' {alias=job, className=edu.buaa.rse.dotx.dbmodel.JobModel, tableAlias=jobmodel0_}
+          |  \-[IDENT] IdentNode: 'id' {originalText=id}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=id, expectedType=org.hibernate.type.IntegerType@2246ecbb}
+
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.QueryTranslatorImpl - HQL: Select job from edu.buaa.rse.dotx.dbmodel.JobModel job  where job.id= :id 
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.QueryTranslatorImpl - SQL: select jobmodel0_.id as id1_0_, jobmodel0_.status as status2_0_, jobmodel0_.taskid as taskid3_0_ from job jobmodel0_ where jobmodel0_.id=?
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.SQL - 
+    select
+        jobmodel0_.id as id1_0_,
+        jobmodel0_.status as status2_0_,
+        jobmodel0_.taskid as taskid3_0_ 
+    from
+        job jobmodel0_ 
+    where
+        jobmodel0_.id=?
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.loader.Loader - Result set row: 0
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.loader.Loader - Result row: EntityKey[edu.buaa.rse.dotx.dbmodel.JobModel#23]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [edu.buaa.rse.dotx.dbmodel.JobModel#23]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [edu.buaa.rse.dotx.dbmodel.JobModel#23]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.SQL - 
+    insert 
+    into
+        job_result
+        (jobid, result, sortkey, type) 
+    values
+        (?, ?, ?, ?)
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.id.IdentifierGeneratorHelper - Natively generated identity: 10
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003002e, packet:: clientPath:null serverPath:null finished:false header:: 143,4  replyHeader:: 143,7837,0  request:: '/task/13/joblist/24/id,F  response:: #3234,s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - deploy.xml开始下载....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - deploy.xml成功下载到workspace_agent/job/24/deploy.xml
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - result.json开始下载....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - result.json成功下载到workspace_agent/job/24/result.json
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Processing flush-time cascades
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Dirty checking collections
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.Collections - Collection found: [edu.buaa.rse.dotx.dbmodel.JobModel.results#23], was: [edu.buaa.rse.dotx.dbmodel.JobModel.results#23] (uninitialized)
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - Listing entities:
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobModel{task=edu.buaa.rse.dotx.dbmodel.TaskModel#13, id=23, results=<uninitialized>, status=2}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobResultModel{result=[{"2":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}},{"3":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"4":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"5":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"26":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"27":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"28":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"29":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}}], sortkey=null, id=10, job=edu.buaa.rse.dotx.dbmodel.JobModel#23, type=null}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.SQL - 
+    select
+        jobmodel0_.id as id1_0_,
+        jobmodel0_.status as status2_0_,
+        jobmodel0_.taskid as taskid3_0_ 
+    from
+        job jobmodel0_ 
+    where
+        jobmodel0_.id=?
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.loader.Loader - Result set row: 0
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.loader.Loader - Result row: EntityKey[edu.buaa.rse.dotx.dbmodel.JobModel#24]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [edu.buaa.rse.dotx.dbmodel.JobModel#24]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [edu.buaa.rse.dotx.dbmodel.JobModel#24]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.SQL - 
+    insert 
+    into
+        job_result
+        (jobid, result, sortkey, type) 
+    values
+        (?, ?, ?, ?)
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.id.IdentifierGeneratorHelper - Natively generated identity: 11
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AADLComponentMessage.xml开始上传.....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AADLComponentMessage.xml上传成功
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AADLLinkconstraint.xml开始上传.....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AADLLinkconstraint.xml上传成功
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AADLLinkMessage.xml开始上传.....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AADLLinkMessage.xml上传成功
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AADLTaskSequence.xml开始上传.....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AADLTaskSequence.xml上传成功
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AnalyzingContentInfo.xml开始上传.....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - AnalyzingContentInfo.xml上传成功
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - hardwareModel.xml开始上传.....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - hardwareModel.xml上传成功
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - result.json开始上传.....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - result.json上传成功
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - softwareModel.xml开始上传.....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - softwareModel.xml上传成功
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - systemModel.xml开始上传.....
+    INFO Curator-PathChildrenCache-2 edu.buaa.rse.dotx.ftp.FtpAdaptor - systemModel.xml上传成功
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Processing flush-time cascades
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Dirty checking collections
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.Collections - Collection found: [edu.buaa.rse.dotx.dbmodel.JobModel.results#23], was: [edu.buaa.rse.dotx.dbmodel.JobModel.results#23] (uninitialized)
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.Collections - Collection found: [edu.buaa.rse.dotx.dbmodel.JobModel.results#24], was: [edu.buaa.rse.dotx.dbmodel.JobModel.results#24] (uninitialized)
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 2 collections
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - Listing entities:
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobModel{task=edu.buaa.rse.dotx.dbmodel.TaskModel#13, id=23, results=<uninitialized>, status=2}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobResultModel{result=[{"2":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}},{"3":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"4":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"5":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"26":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"27":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"28":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"29":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}}], sortkey=null, id=10, job=edu.buaa.rse.dotx.dbmodel.JobModel#23, type=null}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobModel{task=edu.buaa.rse.dotx.dbmodel.TaskModel#13, id=24, results=<uninitialized>, status=2}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobResultModel{result=[{"2":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}},{"3":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"4":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"5":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"26":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"27":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"28":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"29":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}}], sortkey=null, id=11, job=edu.buaa.rse.dotx.dbmodel.JobModel#24, type=null}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.SQL - 
+    select
+        taskmodel0_.id as id1_2_,
+        taskmodel0_.status as status2_2_,
+        taskmodel0_.temp_dir as temp_dir3_2_ 
+    from
+        task taskmodel0_ 
+    where
+        taskmodel0_.id=?
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.loader.Loader - Result set row: 0
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.loader.Loader - Result row: EntityKey[edu.buaa.rse.dotx.dbmodel.TaskModel#13]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [edu.buaa.rse.dotx.dbmodel.TaskModel#13]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [edu.buaa.rse.dotx.dbmodel.TaskModel#13]
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.SQL - 
+    insert 
+    into
+        task_result
+        (result, sortkey, taskid) 
+    values
+        (?, ?, ?)
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.id.IdentifierGeneratorHelper - Natively generated identity: 6
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.transaction.internal.TransactionImpl - committing
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Processing flush-time cascades
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Dirty checking collections
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.Collections - Collection found: [edu.buaa.rse.dotx.dbmodel.JobModel.results#23], was: [edu.buaa.rse.dotx.dbmodel.JobModel.results#23] (uninitialized)
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.Collections - Collection found: [edu.buaa.rse.dotx.dbmodel.JobModel.results#24], was: [edu.buaa.rse.dotx.dbmodel.JobModel.results#24] (uninitialized)
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.engine.internal.Collections - Collection found: [edu.buaa.rse.dotx.dbmodel.TaskModel.jobs#13], was: [edu.buaa.rse.dotx.dbmodel.TaskModel.jobs#13] (uninitialized)
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 6 objects
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 3 collections
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - Listing entities:
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobModel{task=edu.buaa.rse.dotx.dbmodel.TaskModel#13, id=23, results=<uninitialized>, status=2}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobResultModel{result=[{"2":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}},{"3":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"4":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"5":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"26":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"27":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"28":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"29":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}}], sortkey=null, id=10, job=edu.buaa.rse.dotx.dbmodel.JobModel#23, type=null}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobModel{task=edu.buaa.rse.dotx.dbmodel.TaskModel#13, id=24, results=<uninitialized>, status=2}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.TaskResultModel{result=[{"2":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}},{"3":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"4":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"5":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"26":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"27":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"28":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"29":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}},{"2":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}},{"3":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"4":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"5":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"26":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"27":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"28":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"29":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}}], sortkey=null, task=edu.buaa.rse.dotx.dbmodel.TaskModel#13, id=6}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.JobResultModel{result=[{"2":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}},{"3":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"4":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"5":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"26":{"reliability":-1.0,"interactionComplexity":2.0,"schedulability":-1.0,"runtime":0.0}},{"27":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"28":{"reliability":-1.0,"interactionComplexity":1.0,"schedulability":-1.0,"runtime":0.0}},{"29":{"reliability":-1.0,"interactionComplexity":0.0,"schedulability":-1.0,"runtime":0.0}}], sortkey=null, id=11, job=edu.buaa.rse.dotx.dbmodel.JobModel#24, type=null}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.internal.util.EntityPrinter - edu.buaa.rse.dotx.dbmodel.TaskModel{jobs=<uninitialized>, tempDir=/stage/1512662194449/temp, id=13, status=0}
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.resource.transaction.internal.SynchronizationRegistryStandardImpl - Clearing local Synchronizations
+    DEBUG Curator-PathChildrenCache-2 org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG pool-4-thread-1 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - Connection pool now considered primed; min-size will be maintained
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 7ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003002e after 0ms
+    WARN main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 10813446ms for sessionid 0x16026d97003002e
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 10813446ms for sessionid 0x16026d97003002e, closing socket connection and attempting reconnect
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: LOST
+    WARN main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d97003002e has expired
+    WARN main-EventThread org.apache.curator.ConnectionState - Session expired event received
+    DEBUG main-EventThread org.apache.curator.ConnectionState - reset
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d97003002e has expired, closing socket connection
+    DEBUG main-EventThread org.apache.zookeeper.ZooKeeper - Close called on already closed client
+    INFO main-EventThread org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.246.166:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@3c5a99da
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x16026d97003002e
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.166/172.16.246.166:2181, sessionid = 0x16026d970030030, negotiated timeout = 40000
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 1,12  replyHeader:: 1,7842,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 2,12  replyHeader:: 2,7842,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 3,12  replyHeader:: 3,7842,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 4,4  replyHeader:: 4,7842,0  request:: '/task/13/joblist/23,T  response:: ,s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 5,4  replyHeader:: 5,7842,0  request:: '/task/13/joblist/24,T  response:: ,s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24/id serverPath:/task/13/joblist/24/id finished:false header:: 6,4  replyHeader:: 6,7842,0  request:: '/task/13/joblist/24/id,T  response:: #3234,s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 7,4  replyHeader:: 7,7842,0  request:: '/task/13/joblist/24/status,T  response:: #32,s{7825,7837,1512662209400,1512662215150,3,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23/id serverPath:/task/13/joblist/23/id finished:false header:: 8,4  replyHeader:: 8,7842,0  request:: '/task/13/joblist/23/id,T  response:: #3233,s{7817,7818,1512662209326,1512662209329,1,0,0,0,2,0,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 9,4  replyHeader:: 9,7842,0  request:: '/task/13/joblist/23/status,T  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/ serverPath:/ finished:false header:: 10,9  replyHeader:: 10,7844,0  request:: '/  response:: '/ 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 11,12  replyHeader:: 11,7844,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 12,12  replyHeader:: 12,7844,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 13,12  replyHeader:: 13,7844,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 14,12  replyHeader:: 14,7844,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 15,12  replyHeader:: 15,7844,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 16,12  replyHeader:: 16,7844,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 17,12  replyHeader:: 17,7844,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 18,12  replyHeader:: 18,7844,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030030 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030030 after 8ms
+    WARN main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 2948776ms for sessionid 0x16026d970030030
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 2948776ms for sessionid 0x16026d970030030, closing socket connection and attempting reconnect
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.166/172.16.246.166:2181, sessionid = 0x16026d970030030, negotiated timeout = 40000
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:null serverPath:null finished:false header:: 19,101  replyHeader:: 19,7844,0  request:: 7844,v{'/task/13/joblist/24,'/task/13/joblist/24/id,'/task/13/joblist/23/id,'/task/13/joblist/23/status,'/task/13/joblist/24/status,'/task/13/joblist/23},v{},v{'/task/13/joblist/24,'/task/13/joblist,'/task/13/joblist/23,'/taskqueue}  response:: null
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 20,12  replyHeader:: 20,7844,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 21,12  replyHeader:: 21,7844,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 22,12  replyHeader:: 22,7844,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 23,12  replyHeader:: 23,7844,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 24,12  replyHeader:: 24,7844,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 25,12  replyHeader:: 25,7844,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 26,12  replyHeader:: 26,7844,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23/id serverPath:/task/13/joblist/23/id finished:false header:: 27,4  replyHeader:: 27,7844,0  request:: '/task/13/joblist/23/id,T  response:: #3233,s{7817,7818,1512662209326,1512662209329,1,0,0,0,2,0,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 28,4  replyHeader:: 28,7844,0  request:: '/task/13/joblist/23/status,T  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 29,4  replyHeader:: 29,7844,0  request:: '/task/13/joblist/23,T  response:: ,s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 30,4  replyHeader:: 30,7844,0  request:: '/task/13/joblist/24,T  response:: ,s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24/id serverPath:/task/13/joblist/24/id finished:false header:: 31,4  replyHeader:: 31,7844,0  request:: '/task/13/joblist/24/id,T  response:: #3234,s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 32,4  replyHeader:: 32,7844,0  request:: '/task/13/joblist/24/status,T  response:: #32,s{7825,7837,1512662209400,1512662215150,3,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/ serverPath:/ finished:false header:: 33,9  replyHeader:: 33,7844,0  request:: '/  response:: '/ 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 34,12  replyHeader:: 34,7844,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 35,12  replyHeader:: 35,7844,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 36,12  replyHeader:: 36,7844,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030030, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 37,12  replyHeader:: 37,7844,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x16026d970030030, likely server has closed socket, closing socket connection and attempting reconnect
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    WARN main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d970030030 has expired
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d970030030 has expired, closing socket connection
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: LOST
+    WARN main-EventThread org.apache.curator.ConnectionState - Session expired event received
+    DEBUG main-EventThread org.apache.curator.ConnectionState - reset
+    DEBUG main-EventThread org.apache.zookeeper.ZooKeeper - Close called on already closed client
+    INFO main-EventThread org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.246.166:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@3c5a99da
+    INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x16026d970030030
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.166/172.16.246.166:2181, sessionid = 0x16026d970030034, negotiated timeout = 40000
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 1,12  replyHeader:: 1,7849,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 2,12  replyHeader:: 2,7849,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 3,12  replyHeader:: 3,7849,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24/id serverPath:/task/13/joblist/24/id finished:false header:: 4,4  replyHeader:: 4,7849,0  request:: '/task/13/joblist/24/id,T  response:: #3234,s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 5,4  replyHeader:: 5,7849,0  request:: '/task/13/joblist/24/status,T  response:: #32,s{7825,7837,1512662209400,1512662215150,3,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 6,4  replyHeader:: 6,7849,0  request:: '/task/13/joblist/23,T  response:: ,s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 7,4  replyHeader:: 7,7849,0  request:: '/task/13/joblist/24,T  response:: ,s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23/id serverPath:/task/13/joblist/23/id finished:false header:: 8,4  replyHeader:: 8,7849,0  request:: '/task/13/joblist/23/id,T  response:: #3233,s{7817,7818,1512662209326,1512662209329,1,0,0,0,2,0,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 9,4  replyHeader:: 9,7849,0  request:: '/task/13/joblist/23/status,T  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/ serverPath:/ finished:false header:: 10,9  replyHeader:: 10,7850,0  request:: '/  response:: '/ 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 11,12  replyHeader:: 11,7850,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 12,12  replyHeader:: 12,7850,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 13,12  replyHeader:: 13,7850,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 14,12  replyHeader:: 14,7850,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 15,12  replyHeader:: 15,7850,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 16,12  replyHeader:: 16,7850,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 17,12  replyHeader:: 17,7850,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 18,12  replyHeader:: 18,7850,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 2ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 2ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 3ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 2ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 2ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 2ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 2ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    WARN main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7084151ms for sessionid 0x16026d970030034
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7084151ms for sessionid 0x16026d970030034, closing socket connection and attempting reconnect
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.166/172.16.246.166:2181, sessionid = 0x16026d970030034, negotiated timeout = 40000
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:null serverPath:null finished:false header:: 19,101  replyHeader:: 19,7850,0  request:: 7850,v{'/task/13/joblist/24,'/task/13/joblist/24/id,'/task/13/joblist/23/id,'/task/13/joblist/23/status,'/task/13/joblist/24/status,'/task/13/joblist/23},v{},v{'/task/13/joblist/24,'/task/13/joblist,'/task/13/joblist/23,'/taskqueue}  response:: null
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 20,12  replyHeader:: 20,7850,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 21,12  replyHeader:: 21,7850,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 22,12  replyHeader:: 22,7850,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 23,12  replyHeader:: 23,7850,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 24,12  replyHeader:: 24,7850,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 25,12  replyHeader:: 25,7850,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 26,12  replyHeader:: 26,7850,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 27,4  replyHeader:: 27,7850,0  request:: '/task/13/joblist/23,T  response:: ,s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 28,4  replyHeader:: 28,7850,0  request:: '/task/13/joblist/24,T  response:: ,s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23/id serverPath:/task/13/joblist/23/id finished:false header:: 29,4  replyHeader:: 29,7850,0  request:: '/task/13/joblist/23/id,T  response:: #3233,s{7817,7818,1512662209326,1512662209329,1,0,0,0,2,0,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 30,4  replyHeader:: 30,7850,0  request:: '/task/13/joblist/23/status,T  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24/id serverPath:/task/13/joblist/24/id finished:false header:: 31,4  replyHeader:: 31,7850,0  request:: '/task/13/joblist/24/id,T  response:: #3234,s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 32,4  replyHeader:: 32,7850,0  request:: '/task/13/joblist/24/status,T  response:: #32,s{7825,7837,1512662209400,1512662215150,3,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/ serverPath:/ finished:false header:: 33,9  replyHeader:: 33,7850,0  request:: '/  response:: '/ 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 34,12  replyHeader:: 34,7850,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 35,12  replyHeader:: 35,7850,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 36,12  replyHeader:: 36,7850,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030034, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 37,12  replyHeader:: 37,7850,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030034 after 0ms
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x16026d970030034, likely server has closed socket, closing socket connection and attempting reconnect
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    WARN main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d970030034 has expired
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: LOST
+    WARN main-EventThread org.apache.curator.ConnectionState - Session expired event received
+    DEBUG main-EventThread org.apache.curator.ConnectionState - reset
+    DEBUG main-EventThread org.apache.zookeeper.ZooKeeper - Close called on already closed client
+    INFO main-EventThread org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.246.166:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@3c5a99da
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d970030034 has expired, closing socket connection
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x16026d970030034
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.166/172.16.246.166:2181, sessionid = 0x16026d970030038, negotiated timeout = 40000
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 1,12  replyHeader:: 1,7856,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 2,12  replyHeader:: 2,7856,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 3,12  replyHeader:: 3,7856,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24/id serverPath:/task/13/joblist/24/id finished:false header:: 4,4  replyHeader:: 4,7856,0  request:: '/task/13/joblist/24/id,T  response:: #3234,s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 5,4  replyHeader:: 5,7856,0  request:: '/task/13/joblist/24/status,T  response:: #32,s{7825,7837,1512662209400,1512662215150,3,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 6,4  replyHeader:: 6,7856,0  request:: '/task/13/joblist/23,T  response:: ,s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 7,4  replyHeader:: 7,7856,0  request:: '/task/13/joblist/24,T  response:: ,s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23/id serverPath:/task/13/joblist/23/id finished:false header:: 8,4  replyHeader:: 8,7856,0  request:: '/task/13/joblist/23/id,T  response:: #3233,s{7817,7818,1512662209326,1512662209329,1,0,0,0,2,0,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 9,4  replyHeader:: 9,7856,0  request:: '/task/13/joblist/23/status,T  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/ serverPath:/ finished:false header:: 10,9  replyHeader:: 10,7856,0  request:: '/  response:: '/ 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 11,12  replyHeader:: 11,7856,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    28,0,0,14,0,7835} 
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030037, packet:: clientPath:/jobqueue serverPath:/jobqueue finished:false header:: 3,12  replyHeader:: 3,7856,0  request:: '/jobqueue,T  response:: v{},s{7544,7544,1512539170842,1512539170842,0,28,0,0,14,0,7835} 
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030037 after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030037 after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030037 after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030037 after 31ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030037 after 1ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030037 after 0ms
+    WARN Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 1977107ms for sessionid 0x16026d970030037
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 1977107ms for sessionid 0x16026d970030037, closing socket connection and attempting reconnect
+    INFO Curator-Framework-0-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.166/172.16.246.166:2181, sessionid = 0x16026d970030037, negotiated timeout = 40000
+    INFO Curator-Framework-0-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030037, packet:: clientPath:null serverPath:null finished:false header:: 4,101  replyHeader:: 4,7856,0  request:: 7856,v{},v{},v{'/jobqueue}  response:: null
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030037, packet:: clientPath:/jobqueue serverPath:/jobqueue finished:false header:: 5,12  replyHeader:: 5,7856,0  request:: '/jobqueue,T  response:: v{},s{7544,7544,1512539170842,1512539170842,0,28,0,0,14,0,7835} 
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030037, packet:: clientPath:/ serverPath:/ finished:false header:: 6,9  replyHeader:: 6,7856,0  request:: '/  response:: '/ 
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030037, packet:: clientPath:/jobqueue serverPath:/jobqueue finished:false header:: 7,12  replyHeader:: 7,7856,0  request:: '/jobqueue,T  response:: v{},s{7544,7544,1512539170842,1512539170842,0,28,0,0,14,0,7835} 
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x16026d970030037, likely server has closed socket, closing socket connection and attempting reconnect
+    INFO Curator-Framework-0-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    WARN Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d970030037 has expired
+    INFO Curator-Framework-0-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: LOST
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d970030037 has expired, closing socket connection
+    WARN Curator-Framework-0-EventThread org.apache.curator.ConnectionState - Session expired event received
+    DEBUG Curator-Framework-0-EventThread org.apache.curator.ConnectionState - reset
+    DEBUG Curator-Framework-0-EventThread org.apache.zookeeper.ZooKeeper - Close called on already closed client
+    INFO Curator-Framework-0-EventThread org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.246.166:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@66d33a
+    INFO Curator-Framework-0-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x16026d970030037
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.166/172.16.246.166:2181, sessionid = 0x16026d97003003a, negotiated timeout = 40000
+    INFO Curator-Framework-0-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003a, packet:: clientPath:/ serverPath:/ finished:false header:: 1,9  replyHeader:: 1,7860,0  request:: '/  response:: '/ 
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003a, packet:: clientPath:/jobqueue serverPath:/jobqueue finished:false header:: 2,12  replyHeader:: 2,7860,0  request:: '/jobqueue,T  response:: v{},s{7544,7544,1512539170842,1512539170842,0,28,0,0,14,0,7835} 
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003a, packet:: clientPath:/jobqueue serverPath:/jobqueue finished:false header:: 3,12  replyHeader:: 3,7860,0  request:: '/jobqueue,T  response:: v{},s{7544,7544,1512539170842,1512539170842,0,28,0,0,14,0,7835} 
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 1ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 1ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 1ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 1ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 1ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 2ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    DEBUG Curator-Framework-0-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003a after 0ms
+    

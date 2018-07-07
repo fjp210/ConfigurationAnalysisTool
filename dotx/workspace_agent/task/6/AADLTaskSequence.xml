@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tasks>
+  <task>
+    <number>T1</number>
+    <taskSequence>Sens1-proc1-proc2-proc5</taskSequence>
+    <timeRequest>200</timeRequest>
+  </task>
+  <task>
+    <number>T2</number>
+    <taskSequence>Sens2-proc2-proc3-proc4</taskSequence>
+    <timeRequest>200</timeRequest>
+  </task>
+  <task>
+    <number>T3</number>
+    <taskSequence>Sens2-proc5-proc2-proc1-Sens1</taskSequence>
+    <timeRequest>200</timeRequest>
+  </task>
+</tasks>

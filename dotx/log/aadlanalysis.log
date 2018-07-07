@@ -1,0 +1,406 @@
+DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 12,12  replyHeader:: 12,7856,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 13,12  replyHeader:: 13,7856,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 14,12  replyHeader:: 14,7856,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 15,12  replyHeader:: 15,7856,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 16,12  replyHeader:: 16,7856,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 17,12  replyHeader:: 17,7856,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 18,12  replyHeader:: 18,7856,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030038 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030038 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030038 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030038 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030038 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030038 after 0ms
+    WARN main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 1976879ms for sessionid 0x16026d970030038
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 1976879ms for sessionid 0x16026d970030038, closing socket connection and attempting reconnect
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.166/172.16.246.166:2181, sessionid = 0x16026d970030038, negotiated timeout = 40000
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:null serverPath:null finished:false header:: 19,101  replyHeader:: 19,7856,0  request:: 7856,v{'/task/13/joblist/24,'/task/13/joblist/24/id,'/task/13/joblist/23/id,'/task/13/joblist/23/status,'/task/13/joblist/24/status,'/task/13/joblist/23},v{},v{'/task/13/joblist/24,'/task/13/joblist,'/task/13/joblist/23,'/taskqueue}  response:: null
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 20,12  replyHeader:: 20,7856,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 21,12  replyHeader:: 21,7856,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 22,12  replyHeader:: 22,7856,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 23,12  replyHeader:: 23,7856,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 24,12  replyHeader:: 24,7856,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 25,12  replyHeader:: 25,7856,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 26,12  replyHeader:: 26,7856,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24/id serverPath:/task/13/joblist/24/id finished:false header:: 27,4  replyHeader:: 27,7856,0  request:: '/task/13/joblist/24/id,T  response:: #3234,s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 28,4  replyHeader:: 28,7856,0  request:: '/task/13/joblist/24/status,T  response:: #32,s{7825,7837,1512662209400,1512662215150,3,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 29,4  replyHeader:: 29,7856,0  request:: '/task/13/joblist/23,T  response:: ,s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 30,4  replyHeader:: 30,7856,0  request:: '/task/13/joblist/24,T  response:: ,s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23/id serverPath:/task/13/joblist/23/id finished:false header:: 31,4  replyHeader:: 31,7856,0  request:: '/task/13/joblist/23/id,T  response:: #3233,s{7817,7818,1512662209326,1512662209329,1,0,0,0,2,0,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 32,4  replyHeader:: 32,7856,0  request:: '/task/13/joblist/23/status,T  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/ serverPath:/ finished:false header:: 33,9  replyHeader:: 33,7856,0  request:: '/  response:: '/ 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 34,12  replyHeader:: 34,7856,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 35,12  replyHeader:: 35,7856,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 36,12  replyHeader:: 36,7856,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030038, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 37,12  replyHeader:: 37,7856,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x16026d970030038, likely server has closed socket, closing socket connection and attempting reconnect
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    WARN main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d970030038 has expired
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: LOST
+    WARN main-EventThread org.apache.curator.ConnectionState - Session expired event received
+    DEBUG main-EventThread org.apache.curator.ConnectionState - reset
+    DEBUG main-EventThread org.apache.zookeeper.ZooKeeper - Close called on already closed client
+    INFO main-EventThread org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.246.166:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@3c5a99da
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x16026d970030038 has expired, closing socket connection
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.166/172.16.246.166:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x16026d970030038
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.166/172.16.246.166:2181, initiating session
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.166/172.16.246.166:2181
+    INFO main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.166/172.16.246.166:2181, sessionid = 0x16026d970030039, negotiated timeout = 40000
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: RECONNECTED
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 1,12  replyHeader:: 1,7859,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 2,12  replyHeader:: 2,7859,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 3,12  replyHeader:: 3,7859,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/24/id serverPath:/task/13/joblist/24/id finished:false header:: 4,4  replyHeader:: 4,7859,0  request:: '/task/13/joblist/24/id,T  response:: #3234,s{7828,7829,1512662209435,1512662209439,1,0,0,0,2,0,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/24/status serverPath:/task/13/joblist/24/status finished:false header:: 5,4  replyHeader:: 5,7859,0  request:: '/task/13/joblist/24/status,T  response:: #32,s{7825,7837,1512662209400,1512662215150,3,0,0,0,1,0,7825} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 6,4  replyHeader:: 6,7859,0  request:: '/task/13/joblist/23,T  response:: ,s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 7,4  replyHeader:: 7,7859,0  request:: '/task/13/joblist/24,T  response:: ,s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/23/id serverPath:/task/13/joblist/23/id finished:false header:: 8,4  replyHeader:: 8,7859,0  request:: '/task/13/joblist/23/id,T  response:: #3233,s{7817,7818,1512662209326,1512662209329,1,0,0,0,2,0,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/23/status serverPath:/task/13/joblist/23/status finished:false header:: 9,4  replyHeader:: 9,7859,0  request:: '/task/13/joblist/23/status,T  response:: #32,s{7814,7834,1512662209272,1512662214854,3,0,0,0,1,0,7814} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/ serverPath:/ finished:false header:: 10,9  replyHeader:: 10,7860,0  request:: '/  response:: '/ 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 11,12  replyHeader:: 11,7860,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 12,12  replyHeader:: 12,7860,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 13,12  replyHeader:: 13,7860,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 14,12  replyHeader:: 14,7860,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 15,12  replyHeader:: 15,7860,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist serverPath:/task/13/joblist finished:false header:: 16,12  replyHeader:: 16,7860,0  request:: '/task/13/joblist,T  response:: v{'23,'24},s{7812,7812,1512662209263,1512662209263,0,2,0,0,0,2,7824} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/24 serverPath:/task/13/joblist/24 finished:false header:: 17,12  replyHeader:: 17,7860,0  request:: '/task/13/joblist/24,T  response:: v{'id,'status},s{7824,7824,1512662209398,1512662209398,0,2,0,0,0,2,7828} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d970030039, packet:: clientPath:/task/13/joblist/23 serverPath:/task/13/joblist/23 finished:false header:: 18,12  replyHeader:: 18,7860,0  request:: '/task/13/joblist/23,T  response:: v{'id,'status},s{7813,7813,1512662209267,1512662209267,0,2,0,0,0,2,7817} 
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 2ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 1ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    DEBUG main-SendThread(172.16.246.166:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d970030039 after 0ms
+    INFO main edu.buaa.rse.dotx.ftp.FtpAdaptor - default data: [B@25618e91
+    INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+    DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+    DEBUG main org.apache.curator.ConnectionState - Starting
+    DEBUG main org.apache.curator.ConnectionState - reset
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=192.168.1.115
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_121
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/Users/zhangquan07/Documents/workspace_aadl/dotx/target/classes:/Users/zhangquan07/Documents/workspace_aadl/example/target/classes:/Users/zhangquan07/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/zhangquan07/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/zhangquan07/.m2/repository/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar:/Users/zhangquan07/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/zhangquan07/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/Users/zhangquan07/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/zhangquan07/Documents/workspace_aadl/ima_inter-complexity/target/classes:/Users/zhangquan07/Documents/workspace_aadl/model/target/classes:/Users/zhangquan07/Documents/workspace_aadl/model/target/test-classes:/Users/zhangquan07/Documents/workspace_aadl/model/lib/selectInfoFromAAXL-0.0.1-SNAPSHOT.jar:/Users/zhangquan07/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/zhangquan07/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/zhangquan07/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/zhangquan07/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/Users/zhangquan07/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/zhangquan07/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/zhangquan07/.m2/repository/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar:/Users/zhangquan07/.m2/repository/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.jar:/Users/zhangquan07/.m2/repository/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.jar:/Users/zhangquan07/.m2/repository/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.jar:/Users/zhangquan07/.m2/repository/org/apache/zookeeper/zookeeper/3.4.8/zookeeper-3.4.8.jar:/Users/zhangquan07/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/zhangquan07/.m2/repository/org/hibernate/hibernate-core/5.2.11.Final/hibernate-core-5.2.11.Final.jar:/Users/zhangquan07/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/Users/zhangquan07/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/zhangquan07/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/Users/zhangquan07/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/zhangquan07/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/Users/zhangquan07/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar:/Users/zhangquan07/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/Users/zhangquan07/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/Users/zhangquan07/.m2/repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/Users/zhangquan07/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/0q/9nmdm2x10_7_3j34__33zhb42x6pjp/T/
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.11.6
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=zhangquan07
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=/Users/zhangquan07
+    INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/Users/zhangquan07/Documents/workspace_aadl/dotx
+    INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.246.189:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@3c5a99da
+    DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+    INFO main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.246.189/172.16.246.189:2181. Will not attempt to authenticate using SASL (unknown error)
+    INFO main edu.buaa.rse.dotx.ftp.FtpAdaptor - get new zk adaptor success , timeout: 30000 retry times : 10
+    INFO main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.246.189/172.16.246.189:2181, initiating session
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.246.189/172.16.246.189:2181
+    INFO main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.246.189/172.16.246.189:2181, sessionid = 0x16026d97003003b, negotiated timeout = 40000
+    INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003b, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,7864,0  request:: '/task,F  response:: s{7542,7542,1512539170809,1512539170809,0,7,0,0,0,7,7804} 
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003b, packet:: clientPath:null serverPath:null finished:false header:: 2,3  replyHeader:: 2,7864,0  request:: '/job,F  response:: s{7543,7543,1512539170820,1512539170820,0,14,0,0,0,14,7819} 
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003b, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,7865,-110  request:: '/jobqueue,#3139322e3136382e312e313135,v{s{31,s{'world,'anyone}}},0  response::  
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003b, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,7866,-110  request:: '/taskqueue,#3139322e3136382e312e313135,v{s{31,s{'world,'anyone}}},0  response::  
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003b, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 5,12  replyHeader:: 5,7866,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,14,0,0,14,0,7803} 
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 5ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 3ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 12ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got notification sessionid:0x16026d97003003b
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/taskqueue for sessionid 0x16026d97003003b
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003b, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 6,12  replyHeader:: 6,7869,0  request:: '/taskqueue,T  response:: v{'queue-0000000007},s{7536,7536,1512539156232,1512539156232,0,15,0,0,14,1,7869} 
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003b, packet:: clientPath:null serverPath:null finished:false header:: 7,4  replyHeader:: 7,7869,0  request:: '/taskqueue/queue-0000000007,F  response:: #01011000231342,s{7869,7869,1516522660434,1516522660434,0,0,0,0,12,0,7869} 
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got notification sessionid:0x16026d97003003b
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/taskqueue for sessionid 0x16026d97003003b
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003b, packet:: clientPath:null serverPath:null finished:false header:: 8,2  replyHeader:: 8,7870,0  request:: '/taskqueue/queue-0000000007,0  response:: null
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x16026d97003003b, packet:: clientPath:/taskqueue serverPath:/taskqueue finished:false header:: 9,12  replyHeader:: 9,7870,0  request:: '/taskqueue,T  response:: v{},s{7536,7536,1512539156232,1512539156232,0,16,0,0,14,0,7870} 
+    DEBUG Curator-QueueBuilder-0 org.jboss.logging - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+    DEBUG Curator-QueueBuilder-0 org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+    DEBUG Curator-QueueBuilder-0 org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+    DEBUG Curator-QueueBuilder-0 org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+    INFO Curator-QueueBuilder-0 org.hibernate.Version - HHH000412: Hibernate Core {5.2.11.Final}
+    INFO Curator-QueueBuilder-0 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+    DEBUG Curator-QueueBuilder-0 org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+    DEBUG Curator-QueueBuilder-0 org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+    DEBUG Curator-QueueBuilder-0 org.hibernate.boot.cfgxml.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+    DEBUG Curator-QueueBuilder-0 org.hibernate.cfg.Configuration - Building session factory using internal StandardServiceRegistryBuilder
+    DEBUG Curator-QueueBuilder-0 org.hibernate.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+    DEBUG Curator-QueueBuilder-0 org.hibernate.cfg.Configuration - Building session factory using provided StandardServiceRegistry
+    DEBUG Curator-QueueBuilder-0 org.hibernate.cache.internal.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+    INFO Curator-QueueBuilder-0 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@cecd0f
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@cecd0f
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@cecd0f
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@75c0c3f4
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@28a6784a
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@72f3b70e
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@62dd9fb2
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@62dd9fb2
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@62dd9fb2
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@79f5deaa
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@79f5deaa
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@79f5deaa
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@309c4878
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@309c4878
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@309c4878
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@432a0a8c
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@432a0a8c
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@432a0a8c
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@65370c8d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@65370c8d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@65370c8d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@4f99d46d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@4f99d46d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4f99d46d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@75a24191
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@75a24191
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@75a24191
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@728e888d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@728e888d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@522048c6
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@522048c6
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@657b27ed
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@657b27ed
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@509588c2
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@10229e83
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@1e0c1c5d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1e0c1c5d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@6b137f9f
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6b137f9f
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@49c4383b
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@49c4383b
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@7a695cfe
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@7a695cfe
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7ec30663
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7ec30663
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@69a545c3
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@69a545c3
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@273d6194
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@273d6194
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@672a1df4
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@672a1df4
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2b41c9b2
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2b41c9b2
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@61ad630
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@61ad630
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@41d94a2a
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@41d94a2a
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@588a57a2
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@588a57a2
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@588a57a2
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5b5289f1
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@7e67b7fa
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7e67b7fa
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7e67b7fa
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4b75dd3c
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@68305be
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@68305be
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@daf8be9
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@daf8be9
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@4ab626b9
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4ab626b9
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@3793e3e
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3793e3e
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1ba28512
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1ba28512
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6bdc12b0
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@2bb7f540
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@2bb7f540
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@2bb7f540
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5c5deccf
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5c5deccf
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5c5deccf
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@7f073536
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@3915f988
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@5c424b6f
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@5c424b6f
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@5c424b6f
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1c6a60ff
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1c6a60ff
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1c6a60ff
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@44248f60
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@45b83725
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@2c533fd6
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2c533fd6
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6acf0061
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@59de1e7
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@59de1e7
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@46d70e7b
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@46d70e7b
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7e67f5fc
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@67aaf415
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@5e7a0b56
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@19f192c1
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@19f192c1
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@275b642d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@32298d9d
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@28483bc0
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1fca6da3
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@63cc187b
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1d7734fa
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@74888aaf
+    DEBUG Curator-QueueBuilder-0 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@386346e8
+    WARN Curator-QueueBuilder-0 org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+    INFO Curator-QueueBuilder-0 org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://172.16.246.189:3306/aadl]
+    INFO Curator-QueueBuilder-0 org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=root}
+    INFO Curator-QueueBuilder-0 org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+    DEBUG Curator-QueueBuilder-0 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+    INFO Curator-QueueBuilder-0 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+    ERROR Curator-QueueBuilder-0 org.apache.curator.framework.recipes.queue.DistributedQueue - Exception processing queue item: queue-0000000007
+    java.lang.ExceptionInInitializerError
+	at edu.buaa.rse.dotx.dbmodel.util.HibernateUtils.buildSessionFactory(HibernateUtils.java:24)
+	at edu.buaa.rse.dotx.dbmodel.util.HibernateUtils.<clinit>(HibernateUtils.java:14)
+	at edu.buaa.rse.dotx.task.TaskConsumer.consumeMessage(TaskConsumer.java:24)
+	at edu.buaa.rse.dotx.task.TaskConsumer.consumeMessage(TaskConsumer.java:1)
+	at org.apache.curator.framework.recipes.queue.DistributedQueue.processMessageBytes(DistributedQueue.java:688)
+	at org.apache.curator.framework.recipes.queue.DistributedQueue.processNormally(DistributedQueue.java:723)
+	at org.apache.curator.framework.recipes.queue.DistributedQueue.access$300(DistributedQueue.java:69)
+	at org.apache.curator.framework.recipes.queue.DistributedQueue$5.run(DistributedQueue.java:637)
+	at org.apache.curator.shaded.com.google.common.util.concurrent.MoreExecutors$SameThreadExecutorService.execute(MoreExecutors.java:297)
+	at org.apache.curator.framework.recipes.queue.DistributedQueue.processChildren(DistributedQueue.java:623)
+	at org.apache.curator.framework.recipes.queue.DistributedQueue.runLoop(DistributedQueue.java:571)
+	at org.apache.curator.framework.recipes.queue.DistributedQueue.access$000(DistributedQueue.java:69)
+	at org.apache.curator.framework.recipes.queue.DistributedQueue$1.call(DistributedQueue.java:199)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:271)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:233)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:242)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:83)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:418)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:87)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:691)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at edu.buaa.rse.dotx.dbmodel.util.HibernateUtils.buildSessionFactory(HibernateUtils.java:20)
+	... 16 more
+Caused by: org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator$1$1.convert(BasicConnectionCreator.java:105)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:123)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:41)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:58)
+	at org.hibernate.engine.jdbc.connections.internal.PooledConnections.addConnections(PooledConnections.java:123)
+	at org.hibernate.engine.jdbc.connections.internal.PooledConnections.<init>(PooledConnections.java:42)
+	at org.hibernate.engine.jdbc.connections.internal.PooledConnections.<init>(PooledConnections.java:20)
+	at org.hibernate.engine.jdbc.connections.internal.PooledConnections$Builder.build(PooledConnections.java:161)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:109)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:72)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:242)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:145)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:259)
+	... 30 more
+Caused by: java.sql.SQLException: Access denied for user 'root'@'172.16.246.1' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:545)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1606)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:633)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:347)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:219)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:38)
+	... 45 more
+DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 0ms
+    DEBUG main-SendThread(172.16.246.189:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x16026d97003003b after 1ms
+    

@@ -1,0 +1,121 @@
+<system name="testModel">
+  <system reference=".."/>
+  <properties/>
+  <components>
+    <component name="proc1" category="PROCESS">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="reliability" value="0.99"/>
+        <property key="initialNode" value="0"/>
+        <property key="runTime" value="10"/>
+      </properties>
+      <subcomponents/>
+      <features>
+        <feature name="proc1Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>0</componentId>
+    </component>
+    <component name="proc2" category="PROCESS">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="reliability" value="0.99"/>
+        <property key="initialNode" value="0"/>
+        <property key="runTime" value="10"/>
+      </properties>
+      <subcomponents/>
+      <features>
+        <feature name="proc2Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>1</componentId>
+    </component>
+    <component name="proc3" category="PROCESS">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="reliability" value="0.99"/>
+        <property key="initialNode" value="0"/>
+        <property key="runTime" value="10"/>
+      </properties>
+      <subcomponents/>
+      <features>
+        <feature name="proc3Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>2</componentId>
+    </component>
+    <component name="proc4" category="PROCESS">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="reliability" value="0.99"/>
+        <property key="initialNode" value="0"/>
+        <property key="runTime" value="10"/>
+      </properties>
+      <subcomponents/>
+      <features>
+        <feature name="proc4Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>3</componentId>
+    </component>
+    <component name="proc5" category="PROCESS">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties>
+        <property key="reliability" value="0.99"/>
+        <property key="initialNode" value="0"/>
+        <property key="runTime" value="10"/>
+      </properties>
+      <subcomponents/>
+      <features>
+        <feature name="proc5Port">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+      <componentId>4</componentId>
+    </component>
+  </components>
+  <connections>
+    <connection name="proc1.proc1Port -&gt; proc2.proc2Port">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties/>
+      <source reference="../../../components/component/features/feature"/>
+      <destination reference="../../../components/component[2]/features/feature"/>
+    </connection>
+    <connection name="proc1.proc1Port -&gt; proc4.proc4Port">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties/>
+      <source reference="../../../components/component/features/feature"/>
+      <destination reference="../../../components/component[4]/features/feature"/>
+    </connection>
+    <connection name="proc2.proc2Port -&gt; proc3.proc3Port">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties/>
+      <source reference="../../../components/component[2]/features/feature"/>
+      <destination reference="../../../components/component[3]/features/feature"/>
+    </connection>
+    <connection name="proc4.proc4Port -&gt; proc5.proc5Port">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties/>
+      <source reference="../../../components/component[4]/features/feature"/>
+      <destination reference="../../../components/component[5]/features/feature"/>
+    </connection>
+  </connections>
+</system>

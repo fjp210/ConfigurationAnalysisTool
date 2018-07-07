@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<linkComponents>
+  <linkComponent>
+    <number>L1</number>
+    <name>Sens1.Sens1Port -&gt; Inter.InterPort2</name>
+    <transferTime>2</transferTime>
+  </linkComponent>
+  <linkComponent>
+    <number>L2</number>
+    <name>Sens2.Sens2Port -&gt; Inter.InterPort3</name>
+    <transferTime>2</transferTime>
+  </linkComponent>
+  <linkComponent>
+    <number>L3</number>
+    <name>Mem1.Mem1Port -&gt; Pro1.Pro1Port</name>
+    <transferTime>2</transferTime>
+  </linkComponent>
+  <linkComponent>
+    <number>L4</number>
+    <name>Mem2.Mem2Port -&gt; Pro2.Pro2Port</name>
+    <transferTime>2</transferTime>
+  </linkComponent>
+  <linkComponent>
+    <number>L5</number>
+    <name>Pro1.Pro1Port -&gt; Inter.InterPort1</name>
+    <transferTime>2</transferTime>
+  </linkComponent>
+  <linkComponent>
+    <number>L6</number>
+    <name>Pro2.Pro2Port -&gt; Inter.InterPort4</name>
+    <transferTime>2</transferTime>
+  </linkComponent>
+</linkComponents>

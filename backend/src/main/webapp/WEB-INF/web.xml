@@ -1,0 +1,55 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+	   <servlet-name>hello</servlet-name>
+	   <servlet-class>edu.buaa.rse.dotx.backend.Hello</servlet-class>
+	</servlet>
+	<servlet>
+	   <servlet-name>test</servlet-name>
+	   <servlet-class>edu.buaa.rse.dotx.backend.Test</servlet-class>
+	</servlet>
+	<servlet>
+	   <servlet-name>submit</servlet-name>
+	   <servlet-class>edu.buaa.rse.dotx.backend.Submit</servlet-class>
+	</servlet>
+	<servlet>
+	   <servlet-name>status</servlet-name>
+	   <servlet-class>edu.buaa.rse.dotx.backend.Status</servlet-class>
+	</servlet>
+	<servlet>
+	   <servlet-name>result</servlet-name>
+	   <servlet-class>edu.buaa.rse.dotx.backend.Result</servlet-class>
+	</servlet>
+	<servlet>
+	   <servlet-name>download</servlet-name>
+	   <servlet-class>edu.buaa.rse.dotx.backend.Download</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>hello</servlet-name>
+	    <url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>submit</servlet-name>
+	    <url-pattern>/submit</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>status</servlet-name>
+	    <url-pattern>/status</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>result</servlet-name>
+	    <url-pattern>/result</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>download</servlet-name>
+	    <url-pattern>/download</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+	    <servlet-name>test</servlet-name>
+	    <url-pattern>/test</url-pattern>
+	</servlet-mapping>
+</web-app>

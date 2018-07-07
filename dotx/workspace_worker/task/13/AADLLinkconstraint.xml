@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constraints>
+	<constraint>
+		<number>
+			RC1
+		</number>
+		<type>
+			Coexist
+		</type>
+		<level>
+			Partition
+		</level>
+		<info>
+			proc1=proc2
+		</info>
+
+	</constraint>
+		<constraint>
+		<number>
+			RC2
+		</number>
+		<type>
+			Repulsive
+		</type>
+		<level>
+			Partition
+		</level>
+		<info>
+			proc3!=proc4
+		</info>
+	</constraint>
+</constraints>

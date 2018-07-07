@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tasks>
+  <task>
+    <number>T1</number>
+    <taskSequence>Sens1-Inter-Mem2</taskSequence>
+    <timeRequest>60</timeRequest>
+  </task>
+  <task>
+    <number>T2</number>
+    <taskSequence>Mem2-Pro1-Sens2</taskSequence>
+    <timeRequest>150</timeRequest>
+  </task>
+</tasks>

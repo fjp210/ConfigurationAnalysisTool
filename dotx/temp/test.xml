@@ -1,0 +1,46 @@
+<system name="imasys">
+  <system reference=".."/>
+  <properties/>
+  <components>
+    <component name="comp1">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties/>
+      <subcomponents/>
+      <features>
+        <feature name="feat1">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+    </component>
+    <component name="comp2">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties/>
+      <subcomponents/>
+      <features>
+        <feature name="feat2">
+          <parent class="component" reference="../../.."/>
+          <properties/>
+        </feature>
+      </features>
+    </component>
+  </components>
+  <connections>
+    <connection name="con1">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties/>
+      <source reference="../../../components/component/features/feature"/>
+      <destination reference="../../../components/component[2]/features/feature"/>
+    </connection>
+    <connection name="con2">
+      <parent class="system" reference="../../.."/>
+      <system reference="../../.."/>
+      <properties/>
+      <source reference="../../../components/component[2]/features/feature"/>
+      <destination reference="../../../components/component/features/feature"/>
+    </connection>
+  </connections>
+</system>
